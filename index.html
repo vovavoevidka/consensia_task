@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+
+<html ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <title>SAXO Product page</title>
+    <link type="text/css" rel="stylesheet" href="fonts.css" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+
+    <script src="http://jpillora.com/xdomain/dist/0.5/xdomain.js" slave="http://echo.jpillora.com/proxy.html"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/angular-resource.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="panel"></div>
+        <div class="navigation">
+            <div class="main-nav">
+                <div class="logo">
+                    <a href="/"><strong>saxo</strong>.com</a>
+                </div>
+                <ul>
+                    <li><a href="/">menu item 01</a></li>
+                    <li><a href="/">menu item 02</a></li>
+                    <li><a href="/">menu item 03</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <div class="search-text-wrapper">
+                    <input type="text" />
+                </div>
+                <input type="button" />
+            </div>
+            <div class="info">
+                <a href="/">
+                    <img src="img/info.svg" />
+                </a>
+            </div>
+            <div class="login">
+                <a href="/">
+                    <div class="avatar">
+                        <img src="img/avatar_placeholder.png" />
+                    </div>
+                    Logga in
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="content" ng-controller="productController">
+        <section class="book-general">
+            <div class="book-image">
+
+            </div>
+            <div class="book-info">
+                <span class="type">E-BOK</span>
+                <h1 class="name">Brinnande livet</h1>
+                <h3 class="author">Alice Munro</h3>
+                <span class="rating"></span>
+                <span class="address"></span>
+            </div>
+        </section>
+        <section class="book-description">
+
+        </section>
+    </div>
+    <script type="text/javascript" src="js/controllers/productController.js"></script>
+    <script type="text/javascript" src="js/app.js"></script> 
+</body>
+</html>

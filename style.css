@@ -1,0 +1,199 @@
+﻿body
+{
+    margin: 0;
+    padding: 0;
+    background: #b7c2c1;
+}
+
+.content {
+    width: 1024px;
+    margin: 0 auto;
+    background: #FFF;
+}
+
+/*navigation*/
+header {
+    height: 100px;
+    width: 100%;
+    background: #FFF;
+}
+header .panel {
+    height: 36px;
+    width: 100%;
+    background: #2F2F2F;
+}
+header .navigation {
+    height: 64px;
+    width: 100%;
+}
+header .main-nav {
+    float: left;
+    height: 64px;
+    width: 45%;
+    border-bottom: 1px solid #959595;
+    box-sizing: border-box;
+}
+header .main-nav a {
+    color: #293133;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+}
+header .main-nav .logo {
+    float: left;
+    margin-right: -5px;
+}
+header .main-nav .logo:after {
+    content: '';
+    width: 24px;
+    height: 64px;
+    display: inline-block;
+    float: left;
+    background: url(img/logo-border.png) center center no-repeat;
+}
+header .main-nav .logo a {
+    line-height: 63px;
+    float: left;
+    padding: 0 20px;
+    background: #6EDED3;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 300;
+    border-bottom: 1px solid rgb(95, 198, 188);
+}
+header .main-nav ul {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+header .main-nav ul li {
+    border-left: 1px solid #959595;
+    display: block;
+    float: left;
+}
+header .main-nav ul li:first-child {
+    border-left: none;
+}
+header .main-nav ul li:last-child {
+    border-right: 1px solid #959595;
+}
+header .main-nav ul li a {
+    line-height: 64px;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+header .search, header .login, header .info {
+    border-bottom: 1px solid #959595;
+    height: 64px;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+header .search {
+    width: 35%;
+    padding: 17px 30px 0 0;
+}
+header .search .search-text-wrapper {
+    float: left;
+    width: 100%;
+    padding-right: 35px;
+    box-sizing: border-box;
+}
+header .search input[type=text] {
+    background: #e9edec;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    float: left;
+    width: 100%;
+}
+header .search input[type=button] {
+    background: url(img/search.svg) center center no-repeat #5fc6bc;
+    border: none;
+    float: left;
+    padding: 0;
+    height: 30px;
+    width: 35px;
+    position: absolute;
+    right: 35px;
+    margin: 0;
+}
+header .info {
+    border-left: 1px solid #959595;
+    width: 8%;
+}
+header .info a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+header .info a img {
+    margin-top: 21px;
+}
+header .login {
+    width: 11%;
+    border-left: 1px solid #959595;
+}
+header .login a {
+    line-height: 64px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+header .login .avatar {
+    width: 42px;
+    height: 42px;
+    margin: 11px 5px 0 5px;
+    border-radius: 21px;
+    background: #6EDED3;
+    float: left;
+}
+header .login .avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*content*/
+.content {
+    width: 1024px;
+    margin: 0 auto;
+}
+.content section {
+    width: 100%;
+    padding: 35px 40px 0 40px;
+    box-sizing: border-box;
+}
+.content section.book-general {
+     background: #f3f3ea;
+     float: left;
+}
+.content section.book-general .book-image {
+    width: 40%;
+    float: left;
+}
+.content section.book-general .book-info {
+    width: 60%;
+    float: left;
+    color: #293133; 
+    font-family: 'Open Sans';
+}
+.content section.book-general .book-info .type {
+    color: #293133;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.content section.book-general .book-info .name {
+    margin: 5px 0;
+    font-size: 2.57143rem;
+    line-height: 1.11111;
+    font-weight: 300;
+}
